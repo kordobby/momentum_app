@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/79ab9960f1.js" crossorigin="anonymous"></script>
+  <title>Momentum App</title>
+</head>
+
+<body>
+  <div id = "weather">
+    <span></span>
+    <span></span>
+  </div>
+
+  <h2 id = "clock">00:00:00</h2>
+
+  <form id="login-form"  class="hidden text-name">
+    <input required maxlength ="15" type="text" placeholder="What is your name?" />
+    <input type="submit" value="" />
+  </form>
+
+  <h1 id="greeting" class="hidden welcome"></h1>
+  
+  <div class="sort-hat">
+    <button type="submit" id="dorm-test">
+      <i class="fa-solid fa-hat-wizard"></i>Sorting Hat
+    </button>
+  </div>
+
+  <div class="my-dorm">
+    <span id="dorm-result"></span>
+  </div>
+
+  <form id="todo-form" class="to-do">
+    <input type = "text" placeholder="Write a To Do and Press Enter" required/>
+  </form>
+  <div id="list-container">
+  <ul id="todo-list" class="list-up"></ul>
+  </div>
+  <div id="quote">
+    <span></span>
+    <span></span>
+  </div>
+  
+  <h2 id = "clock"></h2>
+
+  <script src="js/greetings.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/dormtest.js"></script>
+  </body>
+</html>
